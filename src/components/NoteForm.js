@@ -14,7 +14,7 @@ class NoteForm extends Component {
     this.textInput.value = '';
     this.textInput.focus();
   }
-
+    
   render() {
     return (
       <div className="NoteForm">

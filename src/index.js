@@ -57,11 +57,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      notes: [
-        // {noteId: 1, noteContent: 'Nota 1'},
-        // {noteId: 2, noteContent: 'Nota 2'},
-        // {noteId: 3, noteContent: 'Nota 3'}
-      ]
+      notes: []
     };
 
     this.app =firebase.initializeApp(DB_CONFIG);
