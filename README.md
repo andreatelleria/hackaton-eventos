@@ -38,3 +38,19 @@ Una plataforma intiutiva y fácil de usar. Logra integrar diferentes componentes
 * Generar facturas
 * Análisis estadísticos
 * Modo offline
+
+### Entrevistas
+
+![](assets/img/entrevista.jpeg)
+
+Tomamos como referencia a [Comunal Coworking](https://comunalcoworking.com/servicios/salas-de-reuniones/). En una entrevista con su personal pudimos detectar lo siguiente:
+
+### Paper prototype
+
+**Versión Movile**
+
+**Versión Desktop**
+
+![](assets/img/vista2.jpeg)
+
+![](assets/img/vista1.jpeg)
