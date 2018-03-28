@@ -2,7 +2,7 @@ import './main.css'
 import React from 'react'
 import { render } from 'react-dom'
 import PropTypes from 'prop-types';
-import Header from './components/admin/show-event';
+import AdminShowEvent from './components/admin-show-event';
 
 
 const App = () => {
