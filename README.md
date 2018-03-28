@@ -3,6 +3,7 @@
 Es una web app que permite gestionar eventos, congresos, ferias y otras actividades de manera fácil y dinámica. 
 
 ****
+
 ![](assets/img/eventux.png)
 
 
