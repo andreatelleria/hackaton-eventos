@@ -4,7 +4,6 @@ import Login from './loginPage'
 // import Admin from './admin-show-event'
 import { Switch, Route } from 'react-router-dom'
 
-
 const Main = () => {
     return (
       <div>

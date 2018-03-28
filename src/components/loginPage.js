@@ -1,12 +1,34 @@
 import React from 'react'
-import Login from './Login'
+import LoginGoogle from './Login'
+import '../styles/login.css';
 
-const loginPage = () => {
+const LoginPage = () => {
     return (
-      <div >        
-        <Login />
+      <div className="row justify-content-md-center">
+        <div className="col-6 ">
+          <img src="./assets/img/carousel5.jpg" className="img-fluid" alt="" />
+        </div>
+        <div className="col-6">
+          <h1>EVENTUX</h1>
+          <form className="">
+            <div className="form-group">
+              <input placeholder="Correo Electrónico" className="form-control"/>
+            </div>
+            <div className="form-group">
+              <input placeholder="Contraseña" className="form-control"/>
+            </div>
+            <div className="form-group ">
+              <button type="button" className="btn btn-success">Iniciar Sesión</button>
+            </div>
+            <h6><span>o ingresa con</span></h6>
+            <div className="form-group">
+              <LoginGoogle />
+            </div>
+          </form>
+        </div>
+        
       </div>      
     );
   
 }
-export default loginPage
+export default LoginPage
