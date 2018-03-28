@@ -4,8 +4,7 @@ import AdminHeader from './admin-header';
 import AdminShowForm from './admin-show-form';
 
 const AdminShowEvent = () => (
-  <div>
-    <AdminHeader />
+  <div className="mt-5">
     <AdminShowForm />
   </div>
 )
