@@ -1,3 +1,11 @@
 .bg-aquamarine {
   background-color: #80e1cc;
 }
+
+.nav-item > a > span {
+  padding-bottom: 6px;
+}
+
+.nav-item > a:hover > span {
+  border-bottom: 1.4px solid #202020;
+}
