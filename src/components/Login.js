@@ -43,7 +43,7 @@ class Login extends Component {
       )
     } else{
       return(
-        <button onClick={this.handleAuth}>Google</button>
+        <button onClick={this.handleAuth} className="mt-5">Google</button>
       )
       
     }
