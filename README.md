@@ -4,7 +4,7 @@
 
 Principales requerimientos:
 
-![](assets/img/Eventos.jpg)
+![](dist/assets/img/Eventos.jpg)
 
 ### Benchmarking
 
@@ -41,7 +41,7 @@ Una plataforma intiutiva y fácil de usar. Logra integrar diferentes componentes
 
 ### Entrevistas
 
-![](assets/img/entrevista.jpeg)
+![](dist/assets/img/entrevista.jpeg)
 
 Tomamos como referencia a [Comunal Coworking](https://comunalcoworking.com/servicios/salas-de-reuniones/). En una entrevista con su personal pudimos detectar lo siguiente:
 
@@ -51,6 +51,6 @@ Tomamos como referencia a [Comunal Coworking](https://comunalcoworking.com/servi
 
 **Versión Desktop**
 
-![](assets/img/vista2.jpeg)
+![](dist/assets/img/vista2.jpeg)
 
-![](assets/img/vista1.jpeg)
+![](dist/assets/img/vista1.jpeg)
