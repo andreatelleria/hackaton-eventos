@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from './carousel'
 import CardEventList from './CardEventList'
-import Login from './Login'
 import firebase from 'firebase'
 
 const dataEvents = [
@@ -19,7 +18,6 @@ firebase.initializeApp({
   messagingSenderId: "558847801184"
 })
 
-
 const Main = () => {
     return (
       <div className="container">
@@ -27,7 +25,7 @@ const Main = () => {
         <CardEventList 
           itemEvents = {dataEvents}
         />
-        <Login />
+      
       </div>      
     );
   }

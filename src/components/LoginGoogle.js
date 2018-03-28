@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import firebase from 'firebase'
 
 
-class Login extends Component {
+class LoginGoogle extends Component {
   constructor() {
     super();
     this.state = {  
@@ -43,7 +43,7 @@ class Login extends Component {
       )
     } else{
       return(
-        <button onClick={this.handleAuth}>Google</button>
+        <button  className="btn btn-light"onClick={this.handleAuth}><i className="fab fa-2x fa-lg fa-google-plus "></i>Google</button>
       )
       
     }
@@ -59,4 +59,4 @@ class Login extends Component {
   }  
 }
 
-export default Login;
+export default LoginGoogle;
