@@ -1,12 +1,23 @@
-## Plataforma de Eventos
+## Eventux
 
-### MVP
+Es una web app que permite gestionar eventos, congresos, ferias y otras actividades de manera fácil y dinámica. 
+
+****
+
+![](assets/img/eventux.png)
+
+
+## MVP
 
 Principales requerimientos:
 
 ![](dist/assets/img/Eventos.jpg)
 
-### Benchmarking
+## Research
+
+Existen plataformas con diversidad de funciones y de características, muchas de ellas se centran en mostrar una serie de eventos según los intereses de los usuarios, otras permiten crear eventos y hasta crean un url único para tu evento. Sin embargo, ¿que es lo realmente necesitan nuestras usuarios y los administradores de cada evento?
+
+## Benchmarking
 
 [Guivent](https://www.guivent.com/index.php)
 
@@ -39,13 +50,13 @@ Una plataforma intiutiva y fácil de usar. Logra integrar diferentes componentes
 * Análisis estadísticos
 * Modo offline
 
-### Entrevistas
+## Entrevistas
 
 ![](dist/assets/img/entrevista.jpeg)
 
 Tomamos como referencia a [Comunal Coworking](https://comunalcoworking.com/servicios/salas-de-reuniones/). En una entrevista con su personal pudimos detectar lo siguiente:
 
-### Paper prototype
+## Paper prototype
 
 **Versión Movile**
 
