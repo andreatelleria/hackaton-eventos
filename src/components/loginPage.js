@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginGoogle from './LoginGoogle'
+import LoginGoogle from './Login'
 import '../styles/login.css';
 
 const LoginPage = () => {

@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import firebase from 'firebase'
 
 
-class LoginGoogle extends Component {
+class Login extends Component {
   constructor() {
     super();
     this.state = {  
@@ -59,4 +59,4 @@ class LoginGoogle extends Component {
   }  
 }
 
-export default LoginGoogle;
+export default Login;
