@@ -23,12 +23,12 @@ const HeaderItems = [
 ]
 
 const Header = () => (
-  <nav class="navbar navbar-light navbar-expand-md bg-aquamarine justify-content-center">
+  <nav className="navbar navbar-light navbar-expand-md bg-aquamarine justify-content-center">
     <HeaderLogo />
-    <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+    <div className="navbar-collapse collapse w-100" id="collapsingNavbar">
       <HeaderNavList items = {HeaderItems} />
     </div>
   </nav>

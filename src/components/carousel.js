@@ -17,7 +17,7 @@ const dataCarousel = [
 
 const Carousel = (data) => (
   <div className = "row">
-    <div className = "col s12" >
+    <div className = "col-10 offset-sm-1" >
     {/* Carrusel */}
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
@@ -27,6 +27,7 @@ const Carousel = (data) => (
             <h5>La plataforma de eventos más poderosa, fácil e intuitiva</h5>
           </div>
         </div>
+        
         <div className="carousel-item">
           <img className="d-block w-100 img-size" src="./assets/img/carousel2.jpg" alt="Second slide" />
           <div className="carousel-caption d-none d-md-block">
