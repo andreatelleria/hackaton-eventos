@@ -4,6 +4,7 @@ import { render } from 'react-dom'
 import PropTypes from 'prop-types';
 import Header from './components/header';
 import Main from './components/Main';
+import { BrowserRouter } from 'react-router-dom'
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
 }
 
 render(
-  <App />,
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>,
   document.getElementById('root')
 )

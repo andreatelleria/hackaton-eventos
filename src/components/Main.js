@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from './carousel'
 import CardEventList from './CardEventList'
+import FormEvent from './FormEvent'
 
 const dataEvents = [
   {title: 'Congreso de JavaScripts', name:'Laboratoria', url:'https://secure.meetupstatic.com/photo_api/event/rx1100x800/dtfa002fx00a8ff/sg12c514b75e/450639186.jpeg', organizer:'Laboratoria', address:'av. Venezuela 123, Barranco'},
@@ -15,6 +16,7 @@ const Main = () => {
         <CardEventList 
           itemEvents = {dataEvents}
         />
+        <FormEvent />
       </div>
     );
   }
