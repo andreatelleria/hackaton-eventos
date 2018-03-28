@@ -15,7 +15,7 @@ const HeaderItems = [
 ]
 
 const Header = () => (
-  <nav className="navbar navbar-light navbar-expand-md bg-aquamarine justify-content-center">
+  <nav className="navbar navbar-light navbar-expand-md bg-aquamarine justify-content-center pt-3 pb-3 pl-5 pr-5">
     <HeaderLogo />
     <button className="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
       <span className="navbar-toggler-icon"></span>

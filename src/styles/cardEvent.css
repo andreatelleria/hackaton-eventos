@@ -1,0 +1,11 @@
+.cardEvent img {
+  height: 200px;
+}
+
+.cardEvent a {
+  color: rgb(65, 64, 64)
+}
+
+.cardEvent a:hover {
+  text-decoration: none;
+}

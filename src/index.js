@@ -8,7 +8,7 @@ import Main from './components/Main';
 
 const App = () => {
   return (    
-    <div>
+    <div >
       <Header />
       <Main/>
     </div>
