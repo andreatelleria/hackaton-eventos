@@ -12,14 +12,6 @@ const HeaderItems = [
     name: 'Descubrir evento',
     href: '#',
   },
-/*   {
-    name: 'Inicio',
-    href: '#',
-  },
-  {
-    name: 'Agenda',
-    href: '#',
-  }, */
 ]
 
 const Header = () => (
