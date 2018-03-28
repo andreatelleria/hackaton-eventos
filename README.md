@@ -6,7 +6,6 @@ Es una web app que permite gestionar eventos, congresos, ferias y otras activida
 
 ![](assets/img/eventux.png)
 
-
 ## MVP
 
 Principales requerimientos:
@@ -56,9 +55,21 @@ Una plataforma intiutiva y fácil de usar. Logra integrar diferentes componentes
 
 Tomamos como referencia a [Comunal Coworking](https://comunalcoworking.com/servicios/salas-de-reuniones/). En una entrevista con su personal pudimos detectar lo siguiente:
 
+* El administrador asignado por empresa utiliza una plataforma para reservar salas para sus reuniones.
+* El administrador no controla el aforo, registro y/o participación de los asistentes a los eventos.
+* El control de los eventos organizados por los administradores es manual.
+* El administrador no visualiza el estado de los eventos y/o reuniones.
+* El administrador no puede crear eventos dentro de una plataforma solo existen reserva de sala.
+
+## User Persona
+
+![](assets/img/user-persona.png)
+
 ## Paper prototype
 
-**Versión Movile**
+**Versión Mobile**
+
+![](assets/img/prototipo-papel.JPG)
 
 **Versión Desktop**
 
